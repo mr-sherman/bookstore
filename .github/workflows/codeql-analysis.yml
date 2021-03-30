@@ -61,7 +61,7 @@ jobs:
 
     - run: 
        MakeAll.bat
-      shell: cmd
+      shell: pwsh
     #   make release
 
     - name: Perform CodeQL Analysis

@@ -60,7 +60,7 @@ jobs:
     #    uses a compiled language
 
     - run: 
-       MakeAll.bat
+       ./MakeAll.bat
       shell: pwsh
     #   make release
 
